@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Automated Route System",
+    "imageSrc": "/assests/projects/project.png",
+    "description": "This is a project made to learn the optimised route just like GPS.",
+    "skills": ["C++","mongoDB", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Saraansh-Hindi Text Summarisation",
+    "imageSrc": "/assests/projects/project.png",
+    "description": "This is a project made to summarise large hindi text into smaller easily understandable formats.",
+    "skills": ["Python", "Streamlit", "AI"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Hangman App",
+    "imageSrc": "/assests/projects/project.png",
+    "description": "This is a project to make the hangman game .",
+    "skills": ["React", "Python", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
