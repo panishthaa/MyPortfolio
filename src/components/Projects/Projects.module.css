@@ -18,9 +18,15 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: nowrap; /* Prevent wrapping to new line */
+  overflow-x: auto; /* Enable horizontal scroll */
   gap: 15px;
   width: 100%;
+  padding-bottom: 20px; /* Prevents scrollbar overlap */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Hide scrollbar in Chrome/Safari */
+.projects::-webkit-scrollbar {
+  display: none;
 }
