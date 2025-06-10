@@ -18,12 +18,11 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; /* Prevent wrapping to new line */
-  overflow-x: auto; /* Enable horizontal scroll */
+  flex-wrap: nowrap;
   gap: 15px;
-  width: 100%;
-  padding-bottom: 20px; /* Prevents scrollbar overlap */
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  width: max-content; /* Expand container to fit all cards */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Hide scrollbar in Chrome/Safari */
