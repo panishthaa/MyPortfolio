@@ -13,7 +13,7 @@ export const Hero = () => {
           NodeJS. Reach out if you'd like to know me more!
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
+          Contact me
         </a>
       </div>
       <img
