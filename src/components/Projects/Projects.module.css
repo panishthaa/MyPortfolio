@@ -3,8 +3,9 @@
 .container {
   margin-top: 76px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 .title {
@@ -20,12 +21,17 @@
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 15px;
-  width: max-content; /* Expand container to fit all cards */
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 20px;
 }
 
-/* Hide scrollbar in Chrome/Safari */
 .projects::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
 }

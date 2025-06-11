@@ -7,7 +7,11 @@
   justify-content: space-between;
   padding-top: 61px;
   z-index: 2;
-  margin: 0 10%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .title {
@@ -16,7 +20,6 @@
   text-decoration: none;
   color: var(--color-text);
 }
-
 
 .menuBtn {
   display: none;
@@ -42,12 +45,13 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding: 20px;
   }
 
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
+    margin-right: 20px;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
@@ -78,5 +82,5 @@
   .menuOpen {
     display: flex;
     z-index: 1;
-  }
+   }
 }
