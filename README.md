@@ -1,12 +1,36 @@
-# React + Vite
+# 💼 Dev Portfolio – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, single-page developer portfolio built with React and CSS Modules, designed to showcase skills, experience, and projects in a clean and responsive layout.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧩 Component-based architecture (Hero, About, Experience, Projects, Contact)
+- 🎨 Custom styling using CSS Modules and variables
+- 📱 Fully responsive layout
+- 🎯 Smooth scrolling and clean UI
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/dev-portfolio.git
+cd dev-portfolio
+npm install
+npm run dev
+# 💼 Dev Portfolio – React
+
+A sleek, single-page personal portfolio website built with **React** and **CSS Modules**, featuring modular sections for showcasing your work, experience, and contact information.
+
+## ✨ Features
+
+- 🧩 Component-based architecture (Hero, About, Experience, Projects, Contact)
+- 🎨 Custom styling using CSS Modules and variables
+- 📱 Fully responsive layout
+- 🎯 Smooth scrolling and clean UI
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/dev-portfolio.git
+cd dev-portfolio
+npm install
+npm run dev
