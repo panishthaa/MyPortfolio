@@ -16,21 +16,3 @@ git clone https://github.com/your-username/dev-portfolio.git
 cd dev-portfolio
 npm install
 npm run dev
-# 💼 Dev Portfolio – React
-
-A sleek, single-page personal portfolio website built with **React** and **CSS Modules**, featuring modular sections for showcasing your work, experience, and contact information.
-
-## ✨ Features
-
-- 🧩 Component-based architecture (Hero, About, Experience, Projects, Contact)
-- 🎨 Custom styling using CSS Modules and variables
-- 📱 Fully responsive layout
-- 🎯 Smooth scrolling and clean UI
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/your-username/dev-portfolio.git
-cd dev-portfolio
-npm install
-npm run dev
